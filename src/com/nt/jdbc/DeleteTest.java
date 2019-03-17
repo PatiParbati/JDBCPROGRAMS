@@ -51,9 +51,9 @@ public class DeleteTest {
 			
 			//Process the result
 			if(result==0)
-				System.out.println("No records found for deletion");
+				System.out.println("No records found for the deletion");
 			else 
-				System.out.println(result+"No of records found for deletion");
+				System.out.println(result+"No of records found for the deletion");
 		}//try	
 			catch(SQLException se) {
 				se.printStackTrace();
@@ -67,7 +67,7 @@ public class DeleteTest {
 		
 		}
 finally {
-	//close jdbc objects
+	//close the jdbc objects
 	try {
 		if(st!=null)
 			st.close();
